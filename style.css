@@ -1,0 +1,1305 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fff;
+}
+
+header{
+    width: 100%;
+    height: auto;
+    position: fixed ;
+    z-index: 10;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+header .header1{
+    background-color: #F5FBFF;
+    width:100% ;
+    height: 50px;
+    display: flex;
+}
+
+header .header1 .icon{
+    margin-left: 21%;
+    padding-top: 15px;
+    width: 40%;
+}
+
+header .header1 .icon a{
+    text-decoration: none;
+}
+
+header .header1 .icon i{
+    font-size: 15px;
+    color: #C7C7C7;
+    padding-right: 10px;
+}
+
+header .header1 .icon i:hover{
+    color: #84CEFF;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+header .header1 .contact{
+    width: 40%;
+    padding-top: 15px;
+    display: flex;
+}
+
+header .header1 .contact i{
+    font-size: 15px;
+    color: #5DB2FF;
+}
+
+header .header1 .contact i:nth-child(1){
+    margin-left: 20%;
+}
+
+header .header1 .contact p{
+    margin: 0;
+    margin-left: 3%;
+    margin-right: 50px;
+    margin-top: -2px;
+    width: 80%;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.3);
+}
+
+header .header1 .contact a{
+    text-decoration: none;
+}
+
+
+
+header .header2{
+    background-color: white;
+    width: 100%;
+    height: 80px;
+    display: flex;
+}
+
+header .header2 .logo{
+    padding-top: 20px;
+    margin-left: 21%;
+}
+
+header .header2 .nav{   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5%;
+    margin-top: 10px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+header .header2 .nav a:hover{
+    color: rgba(0, 0, 0, 1);
+    transition: 0.5s;
+}
+
+header .header2 .nav ul li:hover{
+    color: rgba(0, 0, 0, 1);
+    transition: 0.5s;
+}
+
+
+header .header2 .nav ul{
+    display: flex;
+    position: absolute;
+    margin-right: 300px;
+}
+
+header .header2 .nav ul li{
+    list-style: none;
+    padding-right: 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+header .header2 .nav ul a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.5);
+    margin: 0;
+}
+
+header .header2 .nav ul li ul{
+    display: none;
+}
+
+header .header2 .nav ul li:hover > ul{
+    display: block;
+    width: 1px;
+}
+
+.nav ul ul li{
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+header .header2 .nav input{
+    outline: none;
+    border: 1px solid #009DFF;
+    margin-left: 650px;
+    height: 45px;
+    width: 220px;
+    border-radius: 5px;
+    background-color: #009DFF;
+    font-size: 17px;
+    color: white;
+}
+
+header .header2 .nav input:hover{
+    background-color: white;
+    color:#009DFF;
+    transition: 0.5s;
+}
+
+
+/* Header End */
+
+/* Section One Start */
+
+.section1{
+    padding-top: 130px;
+    width: 100%;
+    height: auto;
+}
+
+.section1 .alldoctors{
+    width: 100%;
+    height: auto;
+    display: flex;
+    overflow: hidden;
+}
+
+.section1 .alldoctors .doctor{
+    position: relative;
+    animation: sect1slide infinite 20s;
+}
+
+@keyframes sect1slide{
+    0%{
+        transform: translateX(-0%);
+    }
+    20%{
+        transform: translateX(-0%);
+    }
+    30%{
+        transform: translateX(-100%);
+    }
+    50%{
+        transform: translateX(-100%);
+    }
+    60%{
+        transform: translateX(-200%);
+    }
+    80%{
+        transform: translateX(-200%);
+    }
+    90%{
+        transform: translateX(-300%);
+    }
+    100%{
+        transform: translateX(-300%);
+    }
+}
+
+.section1 .doctor .text{
+    position: absolute;
+    top: 20%;
+    left: 20%;
+}
+
+.section1 .doctor .text h1{
+    font-size: 4rem;
+    margin-bottom: 0;
+    font-weight: bold;
+}
+
+.section1 .doctor .text h2{
+    letter-spacing: 5px;
+    font-size: 4rem;
+    font-weight: normal;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.section1 .doctor .text p{
+    letter-spacing: 1px;
+    line-height: 30px;
+    font-size: 20px;
+    margin-top:20px;
+    width: 523px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.section1 .doctor .text input{
+    width: 250px;
+    height: 50px;
+    font-size: 17px;
+    outline: none;
+    border: 1px solid #009DFF;
+    background: linear-gradient(to right , #009DFF , rgb(131, 236, 243));
+    color: white;
+    cursor: pointer;
+}
+
+.section1 .doctor .text input:hover{
+    background-color: #fff;
+    color: #009DFF;
+    transition:0.5s;
+}
+
+/* Section One End */
+
+/* Sectiom Two Start */
+
+.section2{
+    width: 100%;
+    height: 350px;
+    margin-top: -4px;
+}
+
+.section2 .allicons{
+    width: 100%;
+    display: flex;
+    height: 100%;
+}
+
+
+
+
+.section2 .allicons .div1{
+    background-color: #83C4FF;
+    width: 10%;
+}
+
+
+.section2 .allicons .div2{
+    background-color: #83C4FF;
+    width: 30%;
+}
+
+.section2 .allicons .div2 i{
+    font-size: 50px;
+    color: white;
+    opacity: .9;
+    margin-left: 40%;
+    margin-top: 10%
+}
+
+
+.section2 .allicons .div2 .sect2text{
+    margin-left: 40%;
+}
+
+.section2 .allicons .div2 .sect2text p{
+    width: 330px;
+    color: white;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.section2 .allicons .div2 .sect2text h1{
+    font-size: 2rem;
+    margin-bottom: 0;
+    color: #fff;
+}
+
+
+
+
+.section2 .allicons .div3{
+    background-color: #5DB2FF;
+    width: 20%;
+}
+
+
+
+.section2 .allicons .div4{
+    background-color: #83C4FF;
+    width: 30%;
+}
+
+.section2 .allicons .div4 .sect2text p{
+    width: 330px;
+}
+
+.section2 .allicons .div4 i{
+    margin-top: 10%;
+}
+
+
+
+.section2 .allicons .div5{
+    background-color: #83C4FF;
+    width: 10%;
+}
+
+
+.section2 .allicons div i{
+    font-size: 50px;
+    color: white;
+    opacity: .9;
+    margin-left: 10%;
+    margin-top: 15%
+}
+
+.section2 .allicons .sect2text p{
+    width: 330px;
+    color: white;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.section2 .allicons .sect2text h1{
+    font-size: 2rem;
+    margin-bottom: 0;
+    color: #fff;  
+}
+
+
+
+.section2 .allicons div .sect2text{
+    width: 100%;
+    margin-left: 10%;
+} 
+
+
+.section2 .allicons .sect2text input{
+    font-weight: bold;
+    color: white;
+    font-size: 15px;
+    outline: none;
+    border: 1px solid white;
+    border-radius: 5%;
+    width:200px;
+    height: 40px;
+    background-color: #83C4FF;
+    cursor: pointer;
+}
+
+.section2 .allicons .sect2text input:hover{
+    background-color: #fff;
+    color: #009DFF;
+    transition: 0.7s;
+}
+
+/* Section Two End  */
+
+/* Section Three Start  */
+
+.section3{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    padding-top: 150px;
+}
+
+.section3 .allimg{
+    width: 60%;
+    display: flex;
+    position: relative;
+}
+
+.section3 .allimg img{
+    height: 400px;
+}
+
+.section3 .allimg .img1{
+    margin-left: 40%;
+    position: relative;
+}
+
+.section3 .allimg .img2{
+    z-index: 5;
+    position: absolute;
+    margin-left: 63%;
+    margin-top: 8%;
+}
+
+.section3 .sect3text{
+    width: 50%;
+    margin-left: 5%;
+}
+
+.section3 .sect3text h3{
+    display: inline;
+    margin-top: 0;
+    color: rgba(0, 0, 0, 0.7);
+    border-bottom: green 2px solid;
+    font-weight: normal;
+}
+
+.section3 .sect3text h1{
+    font-size: 2.5rem;
+    font-weight: normal;
+    line-height: 50px;
+    margin-bottom: 0;
+}
+
+.section3 .sect3text p{
+    width: 440px;
+    font-size: 18px;
+    line-height: 30px;
+    color: rgba(0, 0, 0, 0.5);
+    font-weight: normal;
+}
+
+
+.section3 .sect3text ul{
+    list-style: none;
+    line-height: 30px;
+    color: rgba(0, 0, 0, 0.5);
+    padding-left: 3%;
+    list-style-type: '✔️ ' ;
+}
+
+.section3 .sect3text input{
+    width: 150px;
+    height: 40px;
+    font-size: 16px;
+    color: #5DB2FF;
+    outline: 0;
+    border: 1px solid #5DB2FF;
+    background-color: #fff;
+    border-radius: 5%;
+    margin-top: 20px;
+
+}
+
+.section3 .sect3text input:hover{
+    background-color: #5DB2FF;
+    color: white;
+    transition: 0.5s;
+}
+
+/* Section three End  */
+
+/* Section Four Start */
+
+.section4{
+    width: 100%;
+    height:auto;
+    background-color: #F5FBFF;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.section4 .sect4header{
+    padding-bottom: 30px;
+    width: 100%;
+}
+
+.section4 .sect4header h1{
+    margin-left: 42%;
+    text-align:center;
+    font-size: 40px;
+    font-weight: 500;
+    border-bottom: green 2px solid;
+    display: inline;
+}
+
+.section4 .sect4header p{
+    width: 430px;
+    text-align:center;
+    font-size: 17px;
+    margin-left: 39%;
+    line-height: 30px;
+    color: rgba(0, 0, 0, 0.4);
+    
+}
+
+.section4 .allpost{
+    display: flex;
+    margin-left: 18%;
+}
+
+.section4 .allpost .post{
+    padding-bottom: 30px;
+    margin-left: 30px;
+    margin-bottom: 40px;
+    background-color: #fff;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
+}
+
+.section4 .allpost .post .posttext{
+    margin-left: 30px
+}
+
+
+
+.section4 .allpost .post .sect4img{
+    overflow: hidden;
+}
+
+
+.section4 .allpost .post:hover .sect4img img{
+    transform: scale(1.23);
+}
+
+.section4 .allpost .post .sect4img img{
+    transition: 0.4s ;
+}
+
+.section4 .allpost .post .posttext p{
+    width: 260px;
+    line-height: 30px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.section4 .allpost .post .posttext a{
+    text-decoration: none;
+    color: #009DFF;
+}
+
+.section4 .allpost .post .posttext a:hover{
+    text-decoration: underline;
+}
+
+.section4 .allpost .post .posttext h2{
+    font-weight: 500;
+}
+
+.section4 .allpost .post:hover .posttext h2{
+    color: #009DFF;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+
+/* Section Four End  */
+
+
+/* Section Five Start */
+
+.section5{
+    width: 100%;
+    height: auto;
+}
+
+.section5 .sect5allimg{
+    display: flex;
+    width: 100%;
+    background-color: black;
+    height: auto;
+    overflow: hidden;
+    height: 500px ;
+}
+
+
+
+.section5 .sect5allimg .sect5img{
+    position: relative;
+    color:#fff;
+    animation: sect5slid 25s infinite;
+}
+
+@keyframes sect5slid{
+    0%{
+        transform: translateX(0%);
+    }
+
+    25%{
+        transform: translateX(0%);
+    }
+
+    30%{
+        transform: translateX(-100%);
+    }
+
+    55%{
+        transform: translateX(-100%);
+    }
+
+    60%{
+        transform: translateX(-200%);
+    }
+
+    75%{
+        transform: translateX(-200%);
+    }
+
+    80%{
+        transform: translateX(-300%);
+    }
+
+    100%{
+        transform: translateX(-300%);
+    }
+
+}
+
+.section5 .sect5allimg .sect5img img{
+    opacity: 0.7;
+    height: 100%;
+}
+
+.section5 .sect5allimg .sect5img .sect5text{
+    position: absolute;
+    top: 30%;
+    left: 30%;
+}
+
+.section5 .sect5allimg .sect5img .sect5text p{
+    font-size: 20px;
+    text-align: center;
+    width: 710px;
+    line-height: 40px;
+}
+
+.section5 .sect5allimg .sect5img .sect5text h4{
+    margin-left: 40%;
+    margin-top: 100px;
+}
+
+.section5 .sect5allimg .sect5img .sect5text i{
+    font-size: 50px;
+    margin-left: 45%;
+}
+
+
+/* Section Five End */
+
+
+/* Section Six Start */
+
+.section6{
+    width: 100%;
+    height: 650px;
+}
+
+.section6 .sect6tab{
+    display: flex;
+    padding-left: 25%;
+    background-color: #F5FBFF;
+    height: 100px;
+    position: relative;
+}
+
+.section6 .sect6tab .tab{
+    width: 350px;
+    position: relative;
+    cursor: pointer;
+}
+
+
+
+.section6 .sect6tab input[type="radio"]{
+    display: none;
+}
+
+
+.section6 .sect6tab .tab h2{
+    font-weight: normal;
+    margin-top: 40px;
+    margin-left: 30px;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.6)
+}
+
+
+.section6 .tabtext{
+    display: flex;
+    flex-direction: row;
+    width: 58%;
+    height: 280px;
+    margin-top: 250px;
+    display: none;
+    position: absolute;
+    border-bottom: 1px rgba(0, 0, 0, 0.3) solid;
+}
+
+.section6 .tabtext i{
+    font-size: 50px;
+    color: #009DFF;
+    margin-left: 20px;
+}
+
+.section6 .tabtext h3{
+    margin-top: 15px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.section6 .tabtext p{
+    width: 480px;
+    line-height: 28px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+
+.section6 .sect6tabimg{
+    margin-top: -300px;
+    margin-left: 550px;
+}
+
+.section6 .sect6tab input[type="radio"]:checked + label + .tabtext{
+    display: block;
+}
+
+.section6 .sect6tab input[type="radio"]:checked + label{
+    background: white;
+}
+
+/* Section Six End */
+
+/* Section Seven Start  */
+
+
+.section7{
+    width: 100%;
+    height: auto;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+
+.section7 .sect7title{
+    display: flex;
+    width: 100%;
+    position: relative;
+}
+
+.section7 .sect7title h1{
+    margin: 0 0 50px 25%;
+    font-size: 40px;
+    font-weight: normal;
+}
+
+.section7 .sect7title .sect7titlebtn{
+    margin: 0 0 0 38%;
+    display: flex;
+}
+
+.section7 .sect7title .sect7titlebtn .btn{
+    font-size: 30px;
+    margin-left: 10px;
+    width: 35px;
+    height: 40px;
+    outline: none;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+    border-radius: 5px;
+    color: rgba(0, 0, 0, 0.4);
+    position: relative;
+    padding-left: 15px;padding-top: 5px;
+}
+
+.section7 .sect7title .sect7titlebtn input{
+    display: none;
+}
+
+.section7 .sect7title .sect7titlebtn .btn:hover{
+    color: #fff;
+    background-color: #009DFF;
+    border: #009DFF 1px solid;
+    transition: 0.3s;
+}
+
+
+
+.section7 .sect7alldoctors{
+    margin: 0 0 0 24%;
+    display: flex;
+    overflow: hidden;
+    width: 1155px;
+}
+
+.section7 .sect7alldoctors .sect7doctor{
+    padding-left: 20px;
+    animation: sect7slide 20s infinite;
+    margin: 0;
+    cursor: pointer;
+}
+
+.section7 .sect7alldoctors .sect7doctor .sect7doctorimg{
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.section7 .sect7alldoctors .sect7doctor:hover img{
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+
+@keyframes sect7slide{
+    0%{
+        transform: translateX(0);
+    }
+    20%{
+        transform: translateX(0);
+    }
+    21%{
+        transform: translateX(-285px);
+    }
+    40%{
+        transform: translateX(-285px);
+    }
+    41%{
+        transform: translateX(-570px);
+    }
+    60%{
+        transform: translateX(-570px);
+    }
+    61%{
+        transform: translateX(-855px);
+    }
+    80%{
+        transform: translateX(-855px);
+    }
+    81%{
+        transform: translateX(-1140px);
+    }
+    100%{
+        transform: translateX(-1140px);
+    }
+}
+
+.section7 .sect7alldoctors .sect7doctor .sect7doctortext{
+    background-color: #F5FBFF;
+    margin-top: -3px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.section7 .sect7alldoctors .sect7doctor .sect7doctortext h3{
+    margin: 0;
+    text-align: center;
+    font-weight: normal;
+}
+
+.section7 .sect7alldoctors .sect7doctor .sect7doctortext h5{
+    text-align: center;
+    margin:0 ;
+    margin-top: 10px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.section7 .sect7alldoctors .sect7doctor:hover .sect7doctortext{
+    background-color: #5DB2FF;
+    transition: 0.4s;
+}
+
+.section7 .sect7alldoctors .sect7doctor:hover .sect7doctortext h3{
+    color: #fff;
+    transition: 0.2s;
+}
+
+.section7 .sect7alldoctors .sect7doctor:hover .sect7doctortext h5{
+    color: #fff;
+    transition: 0.2s;
+}
+
+
+/* Section Seven End  */
+
+/* Section Eight Start  */
+
+.section8{
+    width: 100%;
+    height: 250px;
+}
+
+.section8 .sect8allservice{
+    width: 100%;
+    height: 250px;
+    display: flex;
+}
+
+.section8 .sect8allservice .sect8service:nth-child(1){
+    width: 50%;
+    background-image: url(sect8img1.png);
+    background-repeat: no-repeat;
+    height: 250px;
+    background-size: cover;
+    display: flex;
+    position: relative;
+    z-index: 3;
+}
+
+.section8 .sect8allservice .sect8service:nth-child(2){
+    width: 50%;
+    background-image: url(sect8img2.png);
+    background-repeat: no-repeat;
+    height: 250px;
+    background-size: cover;
+    display: flex;
+    position: relative;
+    z-index: 3;
+}
+
+.section8 .sect8allservice .sect8service .sect8text{
+    color: white;
+    margin-left: 20%;
+    margin-top: 9%;
+}
+
+.section8 .sect8allservice .sect8service input{
+    width: 200px;
+    height: 45px;
+    border-radius: 100px;
+    margin-top: 120px;
+    margin-left: 50px;
+    outline: none;
+    border: 1px solid white;
+    background-color: transparent;
+    font-size: 15px;
+    color: #fff;
+}
+
+.section8 .sect8allservice .sect8service input:hover{
+    background-color: #fff;
+    color: #009DFF;
+    transition: 0.5s;
+}
+
+.section8 .sect8allservice .sect8service .sect8bg{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: linear-gradient(90deg , #60aff8 30%, #7ABEFD);
+    opacity:0.8;
+    z-index: -2;
+}
+
+
+/* Section Eight End  */
+
+
+/* Footer Start  */
+
+footer{
+    width: 100%;
+    height: 600px;
+    background-color: #1F1F1F;
+    position: relative;
+}
+
+footer .footerall{
+    display: flex;
+    padding-top: 150px;
+    margin-left: 10%;
+}
+
+footer .footerall .footerdiv{
+    padding-left: 100px;
+
+}
+
+footer .footerall .footerdiv p{
+    width: 350px;
+    font-size: 17px;
+    color: white;
+    opacity: 0.7;
+    line-height: 30px;
+}
+
+footer .footerall .footerdiv button:nth-child(3){
+    margin-left: 0;
+}
+
+footer .footerall .footerdiv button{
+    width: 50px;
+    height: 60px;
+    font-size: 20px;
+    margin-left:5px;
+    margin-top: 50px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #707070;
+    background-color: #707070;
+    color: white;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+footer .footerall .footerdiv button:hover{
+    color: white;
+    opacity: 1;
+    transition: 0.3s;
+}
+
+footer .footerall .footerdiv h2{
+    margin-top: 0;
+    color: white;
+    font-weight: normal;
+    margin-bottom: 25px;
+}
+
+
+footer .footerall .footerdiv ul li a{
+    text-decoration: none; 
+    color: white;
+    opacity: 0.7;
+}
+
+footer .footerall .footerdiv ul li a:hover{
+    color: #339afc;
+    transition: 0.3s;
+}
+
+footer .footerall .footerdiv ul li{
+    list-style: none;
+    margin-left: -40px;
+    line-height: 45px;
+    font-size: 17px;
+}
+
+
+footer .footerend{
+    position: absolute;
+    bottom: 0;
+    background-color: black;
+    width: 100%;
+    color: #fff;
+    height: 80px;
+}
+
+footer .footerend p{
+    text-align: center;
+    margin-top: 35px;
+    color: white;
+    opacity: 0.5;
+    font-size: 17px;
+}
+
+footer .footerend p a{
+    color: #82ebfd;
+    text-decoration: none;
+}
+
+/* Footer End  */
+
+
+
+
+
+
+/* Responsive For 1440 px Start  */
+
+
+@media (max-width: 1440px){
+
+    html,body{
+        width: 100%;
+        height: 100%;
+        margin:0;
+        padding:0;
+        overflow-x: hidden;
+    }
+
+    /* Header Start  */
+
+    header .header1{
+        width: 100%;
+    }
+
+    header .header1 .icon{
+        margin-left: 10%;
+    }
+
+    header .header2{
+        width: 100%;
+    }
+
+    header .header2 .logo{
+        margin-left: 10%;
+    }
+
+    /* Header End  */
+
+    /* Section One Start  */
+
+    .section1{
+        width: 100%;
+    }
+
+    .section1 .alldoctors {
+        width: 100%;
+    }
+
+    .section1 .alldoctors .doctor{
+        width: 100%;
+    }
+    
+    .section1 .alldoctors .doctor img{
+
+        height: 600px;
+    }
+
+    /* Section One End  */
+
+    /* Section Two Start  */
+
+    .section2{
+        width: 100%;
+    }
+
+    .section2 .div1 , .div5{
+        display:none
+    } 
+    
+    .section2 .allicons .div2{
+        width: 35%;
+    }
+
+    .section2 .allicons .div2 .sect2text{
+        margin-left: 30% ;
+    }
+
+    .section2 .allicons .div2 i{
+        margin-left: 30% ;
+    }
+
+    .section2 .allicons .div3{
+        width: 30%;
+    }
+
+    .section2 .allicons .div3 i{
+        margin-top: 11% ;
+    }
+
+    
+    .section2 .allicons .div4{
+        width: 35%;
+    }
+
+    /* Section Two End  */
+
+    /* Section Three Start  */
+
+    .section3{
+        width: 100%;
+    }
+
+    .section3 .allimg{
+        margin-left: -150px
+    }
+
+    .section3 .sect3text{
+        margin-left: 200px
+    }
+
+    /* Section Three End  */
+
+    /* Section Four Start  */
+
+    .section4 {
+        width: 100%;
+    }
+
+    .section4 .sect4header h1{
+        margin-left: 40%;
+    }
+
+    .section4 .sect4header p{
+        margin-left: 36%;
+    }
+
+    .section4 .allpost{
+        margin-left: 9%
+    }
+
+    /* Section Four End  */
+
+    /* Section Five Start  */
+
+    .section5 {
+        width: 100%;
+    }
+
+    .section5 .sect5allimg .sect5img .sect5text{
+        left: 25%;
+        top: 25%;
+    }
+
+    .section5 .sect5allimg .sect5img img{
+        height: 500px;
+    }
+
+    /* Section Five End  */
+
+    /* Section Six Start  */
+
+    .section6 {
+        width: 100%;
+    }
+
+    .section6 .sect6tab{
+        padding-left: 12%;
+    }
+
+    .section6 .sect6tab .tabtext{
+        width: 77%;
+    }
+
+    /* Section Six End  */
+
+    /* Section Seven Start  */
+
+
+    .section7{
+        width: 100%;
+    }
+
+    .section7 .sect7title h1{
+        margin-left: 12%;
+    }
+
+    .section7 .sect7alldoctors{
+        margin-left: 11%;
+    }
+
+    .section7 .sect7title .sect7titlebtn{
+        margin: 0 0 0 50%;
+    }
+
+    /* Section Seven End  */
+
+    /* Section Eight Start  */
+
+    .section8{
+        width: 100%;
+    }
+
+    .section8 .sect8allservice .sect8service:nth-child(1){
+        background-position-x: -100px;
+    }
+
+    .section8 .sect8allservice .sect8service:nth-child(2){
+        background-position-x: -100px;
+    }
+
+    .section8 .sect8allservice .sect8service .sect8text{
+        margin-left: 13%;
+        margin-top: 12%;
+    }
+
+    .section8 .sect8allservice .sect8service input{
+        margin-left: 3%;
+    }
+
+    /* Section Eight Start  */
+
+    /* Footer Start  */
+
+
+    footer{
+        width: 100%;
+    }
+
+    footer .footerall{
+        margin-left: 5%;
+    }
+
+    /* Footer End  */   
+
+}
+
+
+/* Responsive For 1440 px End  */
+
+
