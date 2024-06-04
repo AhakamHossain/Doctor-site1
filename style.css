@@ -1348,10 +1348,10 @@ footer .footerend p a{
 
 
 
-/* Responsive For 1024 px Stert  */
+/* Responsive For 1280 px Stert  */
 
 
-@media (max-width: 1080px){
+@media (max-width: 1280px){
 
     /* Header Start  */
 
@@ -1369,7 +1369,7 @@ footer .footerend p a{
     }
 
     header .header2 .nav{
-        margin-left: 380px;
+        margin-left: 400px;
     }
 
     header .header2 .nav input{
@@ -1399,7 +1399,8 @@ footer .footerend p a{
 }
 
 .section1 .alldoctors .doctor img{
-    height: 400px;
+    height: 47
+    0px;
 }
 
 /* Sectiom One End  */
@@ -1603,22 +1604,22 @@ footer .footerend p a{
 
 /* Footer Start  */
 
+footer{
+    width: 100%;
+}
 
 
+footer .footerall .footerdiv p{
+    width: 200px;
+}
 
+footer .footerall .footerdiv{
+    padding-left: 50px;
+}
 
-
+/* Footer End  */
 
 
 }
 
-
-
-
-
-
-
-
-
-
-/* Responsive For 1024 px End  */
+/* Responsive For 1280 px End  */
