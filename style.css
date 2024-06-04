@@ -1078,6 +1078,221 @@ footer .footerend p a{
 
 
 
+/* Responsive For 1535 px Start  */
+
+
+@media (max-width: 1535px){
+
+
+    /* Header Start  */
+
+    header .header1{
+        width: 100%;
+    }
+
+    header .header1 .icon{
+        margin-left: 10%;
+    }
+
+    header .header2{
+        width: 100%;
+    }
+
+    header .header2 .logo{
+        margin-left: 10%;
+    }
+
+    /* Header End  */
+
+    /* Section One Start  */
+
+    .section1{
+        width: 100%;
+    }
+
+    .section1 .alldoctors {
+        width: 100%;
+    }
+
+    .section1 .alldoctors .doctor{
+        width: 100%;
+    }
+    
+    .section1 .alldoctors .doctor img{
+
+        height: 600px;
+    }
+
+    /* Section One End  */
+
+    /* Section Two Start  */
+
+    .section2{
+        width: 100%;
+    }
+    
+    .section2 .allicons .div1{
+        width: 35%;
+    }
+
+    .section2 .allicons .div1 .sect2text{
+        margin-left: 30% ;
+    }
+
+    .section2 .allicons .div1 i{
+        margin-left: 30% ;
+    }
+
+    .section2 .allicons .div2{
+        width: 30%;
+    }
+
+    .section2 .allicons .div2 i{
+        margin-top: 11% ;
+    }
+
+    
+    .section2 .allicons .div3{
+        width: 35%;
+    }
+
+    /* Section Two End  */
+
+    /* Section Three Start  */
+
+    .section3{
+        width: 100%;
+    }
+
+    .section3 .allimg{
+        margin-left: -150px
+    }
+
+    .section3 .sect3text{
+        margin-left: 200px
+    }
+
+    /* Section Three End  */
+
+    /* Section Four Start  */
+
+    .section4 {
+        width: 100%;
+    }
+
+    .section4 .sect4header h1{
+        margin-left: 40%;
+    }
+
+    .section4 .sect4header p{
+        margin-left: 36%;
+    }
+
+    .section4 .allpost{
+        margin-left: 9%
+    }
+
+    /* Section Four End  */
+
+    /* Section Five Start  */
+
+    .section5 {
+        width: 100%;
+    }
+
+    .section5 .sect5allimg .sect5img .sect5text{
+        left: 25%;
+        top: 25%;
+    }
+
+    .section5 .sect5allimg .sect5img img{
+        height: 500px;
+    }
+
+    /* Section Five End  */
+
+    /* Section Six Start  */
+
+    .section6 {
+        width: 100%;
+    }
+
+    .section6 .sect6tab{
+        padding-left: 12%;
+    }
+
+    .section6 .sect6tab .tabtext{
+        width: 77%;
+    }
+
+    /* Section Six End  */
+
+    /* Section Seven Start  */
+
+
+    .section7{
+        width: 100%;
+    }
+
+    .section7 .sect7title h1{
+        margin-left: 12%;
+    }
+
+    .section7 .sect7alldoctors{
+        margin-left: 11%;
+    }
+
+    .section7 .sect7title .sect7titlebtn{
+        margin: 0 0 0 50%;
+    }
+
+    /* Section Seven End  */
+
+    /* Section Eight Start  */
+
+    .section8{
+        width: 100%;
+    }
+
+    .section8 .sect8allservice .sect8service:nth-child(1){
+        background-position-x: -100px;
+    }
+
+    .section8 .sect8allservice .sect8service:nth-child(2){
+        background-position-x: -100px;
+    }
+
+    .section8 .sect8allservice .sect8service .sect8text{
+        margin-left: 13%;
+        margin-top: 12%;
+    }
+
+    .section8 .sect8allservice .sect8service input{
+        margin-left: 3%;
+    }
+
+    /* Section Eight Start  */
+
+    /* Footer Start  */
+
+
+    footer{
+        width: 100%;
+    }
+
+    footer .footerall{
+        margin-left: 5%;
+    }
+
+    /* Footer End  */   
+
+}
+
+
+/* Responsive For 1535 px End  */
+
+
+
 /* Responsive For 1440 px Start  */
 
 
@@ -1351,7 +1566,7 @@ footer .footerend p a{
 /* Responsive For 1280 px Stert  */
 
 
-@media (max-width: 1280px){
+@media (max-width: 1024px){
 
     /* Header Start  */
 
@@ -1623,3 +1838,22 @@ footer .footerall .footerdiv{
 }
 
 /* Responsive For 1280 px End  */
+
+
+/* Responsive For 991px Start  */
+
+@media (max-width: 991px){
+/* Header Start  */
+
+header .header1{
+    display: none;
+}
+
+header .
+
+
+
+
+}
+
+/* Responsive For 991px End  */
