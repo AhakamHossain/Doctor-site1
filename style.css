@@ -1,10 +1,10 @@
-    html,body{
-        width: 100%;
-        height: 100%;
-        margin:0;
-        padding:0;
-        overflow-x: hidden;
-    }
+html,body{
+    width: 100%;
+    height: 100%;
+    margin:0;
+    padding:0;
+    overflow-x: hidden;
+}
 
 
 body{
@@ -29,6 +29,7 @@ header .header1{
     height: 50px;
     display: flex;
 }
+
 
 header .header1 .icon{
     margin-left: 21%;
@@ -167,6 +168,15 @@ header .header2 .nav input:hover{
 }
 
 
+header input[type="checkbox"]{
+    display: none;
+}
+
+header .menu{
+    display: none;
+}
+
+
 /* Header End */
 
 /* Section One Start */
@@ -251,7 +261,7 @@ header .header2 .nav input:hover{
     font-size: 17px;
     outline: none;
     border: 1px solid #009DFF;
-    background: linear-gradient(to right , #009DFF , rgb(131, 236, 243));
+    background-color: #009DFF;
     color: white;
     cursor: pointer;
 }
@@ -517,6 +527,7 @@ header .header2 .nav input:hover{
 .section4 .allpost{
     display: flex;
     margin-left: 18%;
+    flex-wrap: wrap;
 }
 
 .section4 .allpost .post{
@@ -1050,7 +1061,6 @@ footer .footerall .footerdiv ul li{
 
 
 footer .footerend{
-    position: absolute;
     bottom: 0;
     background-color: black;
     width: 100%;
@@ -1060,10 +1070,11 @@ footer .footerend{
 
 footer .footerend p{
     text-align: center;
-    margin-top: 35px;
+    padding-top: 30px;
     color: white;
     opacity: 0.5;
     font-size: 17px;
+    width: 90%;
 }
 
 footer .footerend p a{
@@ -1082,6 +1093,15 @@ footer .footerend p a{
 
 
 @media (max-width: 1535px){
+
+    html,body{
+        width: 100%;
+        height: 100%;
+        margin:0;
+        padding:0;
+        overflow-x: hidden;
+    }
+
 
 
     /* Header Start  */
@@ -1299,6 +1319,16 @@ footer .footerend p a{
 @media (max-width: 1440px){
 
 
+        html,body{
+        width: 100%;
+        height: 100%;
+        margin:0;
+        padding:0;
+        overflow-x: hidden;
+    }
+
+
+
     /* Header Start  */
 
     header .header1{
@@ -1513,6 +1543,15 @@ footer .footerend p a{
 
 @media (max-width: 1366px){
 
+    html,body{
+        width: 100%;
+        height: 100%;
+        margin:0;
+        padding:0;
+        overflow-x: hidden;
+    }
+
+
 
     /* Headder Start  */
 
@@ -1566,7 +1605,16 @@ footer .footerend p a{
 /* Responsive For 1280 px Stert  */
 
 
-@media (max-width: 1024px){
+@media (max-width: 1280px){
+
+    html,body{
+        width: 100%;
+        height: 100%;
+        margin:0;
+        padding:0;
+        overflow-x: hidden;
+    }
+
 
     /* Header Start  */
 
@@ -1705,7 +1753,296 @@ footer .footerend p a{
 
 .section4 .allpost{
     display: flex;
-    margin-left: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.section4 .allpost .post .sect4img img{
+    height: 200px;
+}
+
+/* Section Four End  */
+
+/* Section Five Start  */
+
+
+.section5{
+    width: 100%;
+}
+
+.section5 .sect5allimg .sect5img{
+    width: 100%;
+}
+.section5 .sect5allimg {
+    width: 5110px;
+}
+
+.section5 .sect5allimg .sect5img img{
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.section5 .sect5allimg .sect5img .sect5text{
+    margin-left: -150px;
+}
+
+
+/* Section Five End  */
+ 
+
+/* Section Six Start  */
+
+.section6{
+    width: 100%;
+}
+
+.section6 .sect6tab{
+    padding-left: 5%;
+}
+
+.section6 .sect6tab .sect6tabimg img{
+    height: 250px;
+    margin-top: 50px;
+    margin-left: -50px;
+}
+
+.section6 .tabtext{
+    margin-top: 150px;
+}
+
+.section6 .sect6tab .sect6tabtext p{
+    width: 450px;
+    font-size: 17px;
+}
+
+
+/* Section Six End  */
+
+/* Section Seven Start  */
+
+.section7 {
+    width: 100%;
+}
+
+
+.section7 .sect7alldoctors{
+    width: 865px;
+}
+
+.section7 .sect7title .sect7titlebtn{
+    margin-left: 38%;
+}
+
+/* Section Seven End  */
+
+/* Section Eight Start  */
+
+.section8{
+    width: 100%;
+    height: 500px;
+}
+
+.section8 .sect8allservice{
+    width: 100%;
+    height: 250px;
+    display: block;
+}
+
+.section8 .sect8allservice .sect8service:nth-child(1){
+    width: 100%;
+    background-position-x: 0px;
+}
+
+.section8 .sect8allservice .sect8service:nth-child(2){
+    width: 100%;
+    background-position-x: 0px;
+}
+
+.section8 .sect8allservice .sect8service .sect8text{
+    margin-top: 8%;
+    margin-left: 25%;
+}
+
+/* Section Eight End  */
+
+
+/* Footer Start  */
+
+footer{
+    width: 100%;
+}
+
+
+footer .footerall .footerdiv p{
+    width: 200px;
+}
+
+footer .footerall .footerdiv{
+    padding-left: 50px;
+}
+
+/* Footer End  */
+
+
+}
+
+/* Responsive For 1280 px End  */
+
+
+
+/* Responsive For 1024 px Stert  */
+
+
+@media (max-width: 1024px){
+
+    
+    html,body{
+        width: 100%;
+        height: 100%;
+        margin:0;
+        padding:0;
+        overflow-x: hidden;
+    }
+
+    /* Header Start  */
+
+    header{ 
+        width:100%;
+    }
+
+    header .header1 .icon{
+        width: 20%;
+    }
+
+    header .header1 .contact{
+        width: 80%;
+        margin-left: 250px;
+    }
+
+    header .header2 .nav{
+        margin-left: 400px;
+    }
+
+    header .header2 .nav input{
+        position: absolute;
+        margin-left: 500px;
+    }
+
+    /* Header End  */
+
+    /* Section One Start  */
+  
+.section1 .doctor .text{
+    left: 5%;
+}
+
+.section1 .doctor .text h1{
+    font-size: 2.5rem;
+}
+
+.section1 .doctor .text h2{
+    letter-spacing: 4px;
+    font-size: 2.5rem;
+}
+
+.section1 .doctor .text p{
+    font-size: 18px;
+}
+
+.section1 .alldoctors .doctor img{
+    height: 47
+    0px;
+}
+
+/* Sectiom One End  */
+
+/* Section Two Start  */
+
+
+
+.section2{
+    width: 100%;
+}
+
+.section2 .allicons .div1 .sect2text{
+    margin-left: 15%;
+}
+
+.section2 .allicons .div1 i{
+    margin-left: 15%;
+}
+
+.section2 .allicons .div1 .sect2text p{
+    width: 250px;
+}
+
+.section2 .allicons .div2 .sect2text p{
+    width: 250px;
+}
+
+.section2 .allicons .div3 .sect2text p{
+    width: 250px;
+}
+
+/* Section Two End  */
+
+
+/* Section Three Start  */
+
+.section3{
+    width: 100%;
+}
+
+.section3 .allimg{
+    margin-left: -150px;
+}
+
+.section3 .sect3text h1{
+    font-size: 2rem;
+    line-height: 40px;
+}
+
+.section3 .sect3text{
+    margin-left: 25%;
+}
+
+.section3 .sect3text p{
+    width: 340px;
+    font-size: 17px;
+
+}
+
+/* Section Three End  */
+
+
+
+/* Section Four Start */
+
+.section4{
+    width: 100%;
+    height:auto;
+    background-color: #F5FBFF;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.section4 .sect4header{
+    padding-bottom: 30px;
+    width: 100%;
+}
+
+.section4 .sect4header h1{
+    margin-left: 35%;
+}
+
+.section4 .sect4header p{
+    margin-left: 30%;
+}
+
+.section4 .allpost{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .section4 .allpost .post .sect4img img{
@@ -1837,23 +2174,936 @@ footer .footerall .footerdiv{
 
 }
 
-/* Responsive For 1280 px End  */
+/* Responsive For 1024 px End  */
 
 
 /* Responsive For 991px Start  */
 
 @media (max-width: 991px){
+
+    
+    html,body{
+        width: 100%;
+        height: 100%;
+        margin:0;
+        padding:0;
+        overflow-x: hidden;
+    }
+
+
 /* Header Start  */
+
+header .header2{
+    overflow: hidden;
+    height: 140px;
+    transition: 0.5s;
+}
 
 header .header1{
     display: none;
 }
 
-header .
+header .header2 .nav input[type="button"]{
+    display: none;
+}
+
+header .header2 .logo{
+    margin-left: 20%;
+    position: absolute;
+    padding-bottom: 10px;
+}
+
+header .header2 .nav{
+    display: block;
+    margin-top: 70px;
+    background-color: #4c4c4c;
+    width: 600px;
+    margin-bottom: 20px;
+    margin-left: 200px;
+    padding-top: 60px;
+    border-radius: 5px;
+}
+
+header .header2 .nav ul{
+    background-color: #4c4c4c;
+    display: block;
+    line-height: 30px;
+    position: relative;
+    padding-left: 20px;
+    width: 580px;
+}
+
+header .header2 .nav ul li{
+    color: black;
+}
+
+header .header2 .nav ul li:hover{
+    color: black;
+    background-color: white;
+    opacity: 0.5;
+} 
 
 
+header .header2 .nav ul a{
+    color: black;
+}
+
+header .header2 .nav ul ul li{
+    padding-top: 0px;
+    padding-bottom: 15px;
+}
+
+header #menu:checked + .header2{
+    transition: 0.5s;
+    height: 350px;
+}
+
+header input[type="checkbox"]{
+    display:none ;
+}
+
+header .menu{
+    display: block;
+}
+
+header .menubg{
+    padding: 10px;
+    width: 70px;
+    color: #FFF;
+    background-color: #222222;
+    border-radius: 5px;
+    position: absolute;
+    z-index: 1;
+    margin-left: 700px;
+    margin-top: 80px;
+}
+
+/* Header End  */
+
+/* Section One Start  */
+
+.section1{
+    width: 100%;
+}
+
+.section1 .alldoctors .doctor img{
+    height: 450px;
+}
+
+/* Section One End  */
+
+/* Section Two Start  */
+
+.section2{
+    width: 100%;
+}
+
+.section2 .allicons .div1 i{
+    font-size: 45px;
+}
+.section2 .allicons .div2 i{
+    font-size: 45px;
+}
+.section2 .allicons .div3 i{
+    font-size: 45px;
+}
+
+.section2 .allicons .div1 .sect2text h1{
+    font-size: 25px;
+}
+
+.section2 .allicons .div1 .sect2text p{
+    width: 200px;
+    font-size: 17px;
+}
+
+.section2 .allicons .div2 .sect2text h1{
+    font-size: 25px;
+}
+
+.section2 .allicons .div2 .sect2text p{
+    width: 200px;
+    font-size: 17px;
+}
+
+.section2 .allicons .div3 .sect2text h1{
+    font-size: 25px;
+}
+
+.section2 .allicons .div3 .sect2text p{
+    width: 200px;
+    font-size: 17px;
+}
+
+/* Section Two End  */
+
+/* Section Three Start  */
+
+.section3{
+    width: 100%;
+    display: block;
+    height: 1050px;
+}
+
+.section3 .allimg{
+    margin-left: 1%;
+}
+
+.section3 .sect3text{
+    margin-top: 100px;
+}
+
+/* Section Three End  */
+
+/* Section Four Start  */
+
+.section4{
+    width: 100%;
+}
+
+.section4 .allpost{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.section4 .sect4header{
+    margin-left: 5%;
+}
+
+/* Section Four End  */
+
+/* Section 6 Start  */
+
+.section6 .sect6tab{
+    height: 70px;
+}
+
+.section6 .sect6tab .tab{
+    width: 250px;
+    position: relative;
+    cursor: pointer;
+    height: 50px;
+    margin-top: -10px;
+    margin-left: 20px;
+}
+
+
+.section6 .sect6tab .tab h2{
+    font-size: 18px;
+}
+
+.section6 .sect6tab .tabtext .sect6tabimg img{
+    height: 200px;
+    margin-left: -150px;
+}
+
+
+.section6 .sect6tab .tabtext .sect6tabtext h3{
+    width: 200px;
+    line-height: 25px;
+}
+
+.section6 .sect6tab .tabtext .sect6tabtext p{
+    width: 300px;
+    line-height: 25px;
+}
+
+
+/* Section 6 End  */
+
+
+/* Section 7 Start  */
+
+.section7 .sect7alldoctors{
+    width: 585px;
+    margin-left: 20%;
+}
 
 
 }
 
 /* Responsive For 991px End  */
+
+/* Responsive For 768px Start  */
+
+
+@media (max-width: 768px){
+
+    
+    html,body{
+        width: 100%;
+        height: 100%;
+        margin:0;
+        padding:0;
+        overflow-x: hidden;
+    }
+
+
+/* Header Start  */
+
+header .header2{
+    overflow: hidden;
+    height: 140px;
+    transition: 0.5s;
+}
+
+header .header1{
+    display: none;
+}
+
+header .header2 .nav input[type="button"]{
+    display: none;
+}
+
+header .header2 .logo{
+    margin-left: 5%;
+    position: absolute;
+    padding-bottom: 10px;
+}
+
+header .header2 .nav{
+    display: block;
+    margin-top: 70px;
+    background-color: #4c4c4c;
+    width: 400px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    padding-top: 60px;
+    border-radius: 5px;
+}
+
+header .header2 .nav ul{
+    background-color: #4c4c4c;
+    display: block;
+    line-height: 30px;
+    position: relative;
+    padding-left: 20px;
+    width: 380px;
+}
+
+header .header2 .nav ul li{
+    color: black;
+}
+
+header .header2 .nav ul li:hover{
+    color: black;
+    background-color: white;
+    opacity: 0.5;
+} 
+
+
+header .header2 .nav ul a{
+    color: black;
+}
+
+header .header2 .nav ul ul li{
+    padding-top: 0px;
+    padding-bottom: 15px;
+}
+
+header #menu:checked + .header2{
+    transition: 0.5s;
+    height: 350px;
+}
+
+header input[type="checkbox"]{
+    display:none ;
+}
+
+header .menu{
+    display: block;
+}
+
+header .menubg{
+    padding: 10px;
+    width: 70px;
+    color: #FFF;
+    background-color: #222222;
+    border-radius: 5px;
+    position: absolute;
+    z-index: 1;
+    margin-left: 350px;
+    margin-top: 80px;
+}
+
+/* Header End  */
+
+/* Section One Start  */
+
+.section1{
+    width: 100%;
+}
+
+.section1 .alldoctors .doctor img{
+    height: 400px;
+}
+
+/* Section One End  */
+
+/* Section Two Start  */
+
+.section2{
+    width: 100%;
+}
+
+.section2 .allicons .div1 i{
+    font-size: 45px;
+}
+.section2 .allicons .div2 i{
+    font-size: 45px;
+}
+.section2 .allicons .div3 i{
+    font-size: 45px;
+}
+
+.section2 .allicons .div1 .sect2text h1{
+    font-size: 20px;
+}
+
+.section2 .allicons .div1 .sect2text p{
+    width: 150px;
+    font-size: 17px;
+}
+
+.section2 .allicons .div2 .sect2text h1{
+    font-size: 20px;
+}
+
+.section2 .allicons .div2 .sect2text p{
+    width: 150px;
+    font-size: 17px;
+}
+
+.section2 .allicons .div3 .sect2text h1{
+    font-size: 20px;
+}
+
+.section2 .allicons .div3 .sect2text p{
+    width: 150px;
+    font-size: 17px;
+}
+
+.section2 .allicons .div1 .sect2text input{
+    width: 150px;
+}
+.section2 .allicons .div2 .sect2text input{
+    width: 150px;
+}
+.section2 .allicons .div3 .sect2text input{
+    width: 170px;
+}
+
+/* Section Two End  */
+
+/* Section Three Start  */
+
+.section3{
+    width: 100%;
+    display: block;
+    height: 1050px;
+}
+
+.section3 .allimg{
+    margin-left: 1%;
+}
+
+.section3 .sect3text{
+    margin-top: 100px;
+}
+
+/* Section Three End  */
+
+/* Section Four Start  */
+
+.section4{
+    width: 100%;
+}
+
+.section4 .allpost{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.section4 .sect4header{
+    margin-left: auto;
+}
+
+/* Section Four End  */
+
+/* Section 6 Start  */
+
+.section6 .sect6tab{
+    height: 70px;
+}
+
+.section6 .sect6tab .tab{
+    width: 200px;
+    position: relative;
+    cursor: pointer;
+    height: 50px;
+    margin-top: -10px;
+    margin-left: 1px;
+}
+
+
+.section6 .sect6tab .tab h2{
+    font-size: 15px;
+}
+
+.section6 .sect6tab .tabtext .sect6tabtext p{
+    font-size: 15px;
+}
+
+
+.section6 .sect6tab .tabtext .sect6tabimg img{
+    height: 200px;
+    margin-left: -210px;
+}
+
+
+.section6 .sect6tab .tabtext .sect6tabtext h3{
+    width: 200px;
+    line-height: 25px;
+}
+
+.section6 .sect6tab .tabtext .sect6tabtext p{
+    width: 300px;
+    line-height: 25px;
+}
+
+
+/* Section 6 End  */
+
+
+/* Section 7 Start  */
+
+.section7 .sect7alldoctors{
+    width: 585px;
+    margin-left: 10%;
+}
+
+.section7 .sect7title .sect7titlebtn{
+    display: none;
+}
+
+
+/* Secton 7 End  */
+
+/* Section 8 Start  */
+
+
+.section8 .sect8allservice .sect8service:nth-child(1){
+    width: 100%;
+    background-position-x: -100px;
+}
+
+.section8 .sect8allservice .sect8service:nth-child(2){
+    width: 100%;
+    background-position-x: -100px;
+}
+
+.section8 .sect8allservice .sect8service .sect8text{
+    margin-top: 8%;
+    margin-left: 15%;
+}
+
+
+/* Section 8 End  */
+
+/* Footer Start  */
+
+
+footer{
+    height: auto;
+}
+
+
+footer .footerall{
+    flex-wrap: wrap;
+    height: auto;
+}
+
+footer .footerall .footerdiv:nth-child(2){
+    padding-left: 160px;
+    padding-bottom: 100px;
+}
+
+footer .footerall .footerdiv:nth-child(4){
+    padding-left: 200px;
+}
+
+}
+
+
+/* Responsive For 768px End  */
+
+
+
+/* Responsive For 568 Start  */
+
+
+@media (max-width: 568px){
+
+
+    
+    html,body{
+        width: 100%;
+        height: 100%;
+        margin:0;
+        padding:0;
+        overflow-x: hidden;
+    }
+
+
+    
+
+.section1 .alldoctors .doctor img{
+    display: none;   
+}
+
+.section1 .alldoctors .doctor{
+    display: none;
+    height: 400px;
+    width: 100%;
+    background-color: #DFEBF7;
+}
+
+.section1 .alldoctors .doctor1{
+    display: block;
+    padding-bottom: 100px;
+}
+
+
+
+
+
+@keyframes sect1slide{
+    0%{
+        transform: translateX(0%);
+    }
+    20%{
+        transform: translateX(0%);
+    }
+    30%{
+        transform: translateX(0%);
+    }
+    50%{
+        transform: translateX(0%);
+    }
+    60%{
+        transform: translateX(0%);
+    }
+    80%{
+        transform: translateX(0%);
+    }
+    90%{
+        transform: translateX(0%);
+    }
+    100%{
+        transform: translateX(0%);
+    }
+
+}
+
+.section1 .alldoctors .doctor .text{
+    display: none;
+}
+
+.section1 .alldoctors .doctor .text1{
+    display: block;
+    width: 90%;
+}
+
+.section1 .alldoctors .doctor .text1 p{
+    display: block;
+    width: 90%;
+}
+
+
+/* Section 2 Start  */
+
+.section2{
+    height: auto;
+}
+
+.section2 .allicons{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+
+.section2 .allicons .div1{
+    width: 100%;
+    padding-bottom: 50px;
+}
+
+.section2 .allicons .div2{
+    width: 100%;
+    padding-bottom: 50px;
+}
+
+.section2 .allicons .div3{
+    width: 100%;
+    padding-bottom: 50px;
+}
+
+.section2 .allicons .div1 i{
+    margin-left: 5%;
+}
+
+.section2 .allicons .div1 .sect2text{
+    margin-left: 5%;
+}
+
+.section2 .allicons .div1 .sect2text h1{
+    font-size: 1.5rem;
+}
+
+.section2 .allicons .div1 .sect2text p{
+    width: 80%;
+}
+
+.section2 .allicons .div2 i{
+    margin-left: 5%;
+}
+
+.section2 .allicons .div2 .sect2text{
+    margin-left: 5%;
+}
+
+.section2 .allicons .div2 .sect2text h1{
+    font-size: 1.5rem;
+}
+
+.section2 .allicons .div2 .sect2text p{
+    width: 80%;
+}
+
+.section2 .allicons .div3 i{
+    margin-left: 5%;
+}
+
+.section2 .allicons .div3 .sect2text{
+    margin-left: 5%;
+}
+
+.section2 .allicons .div3 .sect2text h1{
+    font-size: 1.5rem;
+}
+
+.section2 .allicons .div3 .sect2text p{
+    width: 80%;
+}
+
+
+/* Section 2 End  */
+
+/* Section 3 Start  */
+
+.section3{
+    padding-bottom: 100px;
+}
+    
+.section3 .allimg .img2{
+    display: none;
+}
+
+/* Section 3 End  */
+
+
+/* Section 4 Start  */
+
+
+
+.section4 .sect4header h1{
+    margin-left: 20%;
+}
+
+.section4 .sect4header p{
+    margin-left: 10%;
+}
+
+/* Section 3 End  */
+
+.section5{
+    display: none;
+}
+.section6{
+    display: none;
+}
+
+
+/* Section 7 Start  */
+
+.section7 .sect7alldoctors{
+    width: 300px;
+}
+
+
+.section8 .sect8allservice .sect8service:nth-child(1){
+    width: 100%;
+    background-position-x: -150px;
+}
+
+.section8 .sect8allservice .sect8service:nth-child(2){
+    width: 100%;
+    background-position-x: -150px;
+}
+
+.section8 .sect8allservice .sect8service .sect8text{
+    margin-top: 8%;
+    margin-left: 5%;
+}
+
+.section8 .sect8allservice .sect8service input{
+    margin-left: -300px;
+    margin-top: 170px;
+}
+
+
+/* Footer Start  */
+
+footer .footerall{
+    flex-direction: column;
+}
+
+footer .footerall .footerdiv p{
+    width: 80%;
+}
+
+footer .footerall .footerdiv:nth-child(1){
+    padding-left: 20px;
+    padding-top: 50px;
+}
+
+footer .footerall .footerdiv:nth-child(2){
+    padding-left: 20px;
+    padding-top: 50px;
+}
+
+footer .footerall .footerdiv:nth-child(3){
+    padding-left: 20px;
+    padding-top: 50px;
+}
+
+footer .footerall .footerdiv:nth-child(4){
+    padding-left: 20px;
+    padding-top: 50px;
+}
+
+
+}
+
+
+/* Responsive For 568 End  */
+
+
+/* Responsive For 414 Start  */
+
+@media (max-width:414px){
+    
+
+html,body{
+    width: 100%;
+    height: 100%;
+    margin:0;
+    padding:0;
+    overflow-x: hidden;
+}
+
+
+
+
+
+/* Header Start  */
+
+header .header2 .nav{
+    width: 200px;
+}
+
+header .header2 .nav ul{
+    width: 180px;
+}
+
+header .menubg{
+    margin-left: 150px;
+}
+
+/* Header End  */
+
+/* Section 3 Start  */
+
+.section1 .alldoctors .doctor{
+    padding-bottom: 250px;
+}
+
+.section3{
+    padding-bottom: 200px;
+}
+
+.section3 .allimg .img1 img{
+    height: 300px;
+    margin-left: -20%;
+}
+
+.section3 .sect3text{
+    margin-left: 50px;
+    width: 90%;
+}
+
+.section3 .sect3text p{
+    width: 70%;
+    margin-top: 50px;
+}
+.section3 .sect3text h1{
+    width: 70%;
+}
+.section3 .sect3text ul{
+    width: 70%;
+    margin-top: 50px;
+}
+
+/* Section 3 End  */
+
+.section4 .sect4header h1{
+    font-size: 2rem;
+}
+
+.section4 .sect4header p{
+    width: 80%;
+}
+
+
+.section8 .sect8allservice .sect8service:nth-child(2){
+    width: 100%;
+    background-position-x: -300px;
+}
+
+}
+
+
+/* Responsive For 414px End  */
+
+
+/* Responsive For 320px End  */
+
+@media (max-width:320px){
+
+
+
+
+
+
+
+    
+}
+
+
+
+
+
+/* Responsive For 320px End  */
