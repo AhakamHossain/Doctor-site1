@@ -984,7 +984,7 @@ header .menu{
 
 footer{
     width: 100%;
-    height: 600px;
+    height: 540px;
     background-color: #1F1F1F;
     position: relative;
 }
@@ -2426,6 +2426,195 @@ header .menubg{
 
 /* Responsive For 991px End  */
 
+
+
+@media (max-width: 800px){
+
+    
+    html,body{
+        width: 100%;
+        height: 100%;
+        margin:0;
+        padding:0;
+        overflow-x: hidden;
+    }
+
+
+/* Header Start  */
+
+header .header2{
+    overflow: hidden;
+    height: 140px;
+    transition: 0.5s;
+}
+
+header .header1{
+    display: none;
+}
+
+header .header2 .nav input[type="button"]{
+    display: none;
+}
+
+header .header2 .logo{
+    margin-left: 20%;
+    position: absolute;
+    padding-bottom: 10px;
+}
+
+header .header2 .nav{
+    display: block;
+    margin-top: 70px;
+    background-color: #4c4c4c;
+    width: 600px;
+    margin-bottom: 20px;
+    margin-left: 200px;
+    padding-top: 60px;
+    border-radius: 5px;
+}
+
+header .header2 .nav ul{
+    background-color: #4c4c4c;
+    display: block;
+    line-height: 30px;
+    position: relative;
+    padding-left: 20px;
+    width: 580px;
+}
+
+header .header2 .nav ul li{
+    color: black;
+}
+
+header .header2 .nav ul li:hover{
+    color: black;
+    background-color: white;
+    opacity: 0.5;
+} 
+
+
+header .header2 .nav ul a{
+    color: black;
+}
+
+header .header2 .nav ul ul li{
+    padding-top: 0px;
+    padding-bottom: 15px;
+}
+
+header #menu:checked + .header2{
+    transition: 0.5s;
+    height: 350px;
+}
+
+header input[type="checkbox"]{
+    display:none ;
+}
+
+header .menu{
+    display: block;
+}
+
+header .menubg{
+    padding: 10px;
+    width: 70px;
+    color: #FFF;
+    background-color: #222222;
+    border-radius: 5px;
+    position: absolute;
+    z-index: 1;
+    margin-left: 700px;
+    margin-top: 80px;
+}
+
+/* Header End  */
+
+/* Section One Start  */
+
+.section1{
+    width: 100%;
+}
+
+.section1 .alldoctors .doctor img{
+    height: 450px;
+}
+
+.section1 .alldoctors .doctor .text{
+    margin-top: -60px;
+}
+
+/* Section One End  */
+
+/* Section Two Start  */
+
+.section2{
+    width: 100%;
+}
+
+.section2 .allicons .div1{
+    padding-bottom: 150px;
+}
+
+.section2 .allicons .div2{
+    padding-bottom: 150px;
+}
+
+.section2 .allicons .div3{
+    padding-bottom: 150px;
+}
+
+.section2 .allicons .div1 i{
+    font-size: 45px;
+}
+.section2 .allicons .div2 i{
+    font-size: 45px;
+}
+.section2 .allicons .div3 i{
+    font-size: 45px;
+}
+
+.section2 .allicons .div1 .sect2text h1{
+    font-size: 25px;
+}
+
+.section2 .allicons .div1 .sect2text p{
+    width: 200px;
+    font-size: 17px;
+}
+
+.section2 .allicons .div2 .sect2text h1{
+    font-size: 25px;
+}
+
+.section2 .allicons .div2 .sect2text p{
+    width: 200px;
+    font-size: 17px;
+}
+
+.section2 .allicons .div3 .sect2text h1{
+    font-size: 25px;
+}
+
+.section2 .allicons .div3 .sect2text p{
+    width: 200px;
+    font-size: 17px;
+}
+
+/* Section Two End  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Responsive For 768px Start  */
 
 
@@ -2998,7 +3187,6 @@ footer .footerall .footerdiv:nth-child(4){
 
 }
 
-
 /* Responsive For 568 End  */
 
 
@@ -3093,10 +3281,60 @@ header .menubg{
 
 @media (max-width:320px){
 
+  
+
+    html,body{
+        width: 100%;
+        height: 100%;
+        margin:0;
+        padding:0;
+        overflow-x: hidden;
+    }
+
+    .section4 .allpost .post .sect4img img{
+        height: 200px;
+    }
+
+    .section4 .allpost .post{
+        width: 280px;
+        margin-left: 0;
+    }
+
+    .section4 .allpost .post .posttext p{
+        width: 90%;
+    }
+
+    .section4 .allpost{
+        margin-left: 0;
+    }
+
+    .section7 .sect7title h1{
+        font-size: 1.5rem;
+    }
+
+    .section7 .sect7alldoctors{
+        margin-left: 0;
+    }
 
 
+    .section8 .sect8allservice .sect8service .sect8text h2{
+        width: 80%;
+    }
 
 
+    .section8 .sect8allservice .sect8service .sect8text p{
+        width: 80%;
+    }
+
+    .section8 .sect8allservice .sect8service input{
+        margin-left: -250px;
+    }
+
+
+    footer .footerend{
+        height: auto;
+        padding-bottom: 20px;
+    }
 
 
     
